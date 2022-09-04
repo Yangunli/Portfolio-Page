@@ -1,0 +1,51 @@
+.project-container {
+  padding: 2vh 5vw;
+  display: flex;
+  flex-direction: column;
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container-fluid {
+  padding: 2vh 5vw !important;
+
+  /* border: 2px solid red; */
+}
+
+.btn a {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.hover-container {
+  display: none;
+}
+.card:hover .hover-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  height: 3rem;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  margin-left: 2px;
+}
+
+.h5 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card-body {
+  background-color: #fff1d7 !important;
+  color: #7a5d07;
+}

@@ -1,0 +1,52 @@
+.form,
+.project-container {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: wheat;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 20vh;
+}
+
+.form {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  width: 60% !important;
+  background: linear-gradient(
+    to right bottom,
+    rgba(208, 185, 109, 0.7),
+    rgba(208, 185, 109, 0.2)
+  );
+  display: flex;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 206, 206);
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.table th {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s ease;
+  padding-bottom: 5px;
+}
+
+.table td {
+  opacity: 1;
+  cursor: pointer;
+}
+.table th:hover {
+  opacity: 0.5;
+}

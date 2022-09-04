@@ -1,0 +1,66 @@
+.header {
+  font-family: "Aboreto", cursive;
+  height: 15vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  color: brown;
+  box-shadow: 0 2px 6px 0 rgba(122, 93, 7, 0.15);
+  background-color: rgb(255, 241, 215);
+  // background-color: transparent;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 4fr 2fr;
+  padding: 2vh 3vw;
+  z-index: 5;
+}
+
+.link-container {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  justify-content: space-around;
+  opacity: 0.5;
+  font-size: 0.8rem;
+  cursor: pointer;
+
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.link-container a {
+  border-left: 3px solid black;
+  color: inherit;
+  transition: all 0.8s ease-in-out;
+}
+
+.header a:hover {
+  opacity: 1;
+}
+
+.logo {
+  margin-left: 2rem;
+  font-size: 3rem;
+  align-self: center;
+  cursor: pointer;
+}
+
+// @media (max-width: 760px) {
+//   .header {
+//     grid-template-columns: 5fr 1fr;
+//   }
+//   .link-container {
+//     flex-direction: column;
+//     a {
+//       border: none;
+//       text-decoration: none;
+//       font-size: 0.8rem;
+//       align-items: flex-end;
+//       justify-content: flex-end;
+//     }
+//   }
+
+//   .logo {
+//     text-align: center;
+//   }
+// }
