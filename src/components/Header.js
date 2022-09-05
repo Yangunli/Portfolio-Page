@@ -4,13 +4,8 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <div className="header">
-      <div
-        className="logo"
-        onClick={() => {
-          navigate(-1);
-        }}
-      >
-        YANYANGIRL
+      <div className="logo">
+        <Link to="/">Yanyangirl</Link>
       </div>
       <div className="link-container">
         <Link to="/application">About</Link>

@@ -12,6 +12,13 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  .form-img {
+    width: 30%;
+    display: block;
+    position: fixed;
+    top: 60%;
+    left: -5%;
+  }
 }
 
 .table {
@@ -49,4 +56,9 @@
 }
 .table th:hover {
   opacity: 0.5;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }

@@ -4,13 +4,40 @@
   top: 0;
   right: 5vw;
   img {
-    width: 50px;
+    width: 30px;
   }
 }
 
+.home {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  width: 100vw;
+  height: 100vh;
+  // border: 2px solid rebeccapurple;
+  background-color: rgb(255, 255, 224);
+}
+
+.home-container {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+
+  // border: 2px solid rebeccapurple;
+}
+.bg-img {
+  width: 100%;
+}
+
+.home-desc {
+  display: none;
+}
 .offcanvas.offcanvas-end.show {
   border-radius: 15% 0px 0px 90%;
   // background-color: #bba58e;
+  width: 35%;
   background-color: mintcream;
   padding-left: 30px;
   padding-top: 20px;
@@ -68,6 +95,115 @@ footer {
   background-color: transparent;
 }
 
+.home-link {
+  padding: 0rem 1rem;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  a {
+    text-decoration: none;
+    width: 60%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(185, 185, 137);
+  }
+}
+
+.fa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fa-solid.fa-newspaper,
+.fa-brands.fa-react,
+.fa-solid.fa-address-card {
+  font-size: 10vw;
+  color: #b4aa76;
+}
+
+h5 {
+  text-align: center;
+  color: #b4aa76;
+}
+
 .modal-open {
   width: 95vw !important ;
+}
+
+@media (max-width: 820px) {
+  .home {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  footer {
+    width: 10vw;
+    .footer-sidebar {
+      width: 10vw;
+    }
+    .social-icons {
+      width: 10vw;
+    }
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10vw;
+    img {
+      width: 50px;
+    }
+  }
+  .offcanvas.offcanvas-end.show {
+    right: 10vw;
+    width: 45%;
+  }
+}
+
+@media (max-width: 680px) {
+  .home-desc {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0rem 2rem;
+  }
+
+  .fa-solid.fa-newspaper,
+  .fa-brands.fa-react,
+  .fa-solid.fa-address-card {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .home {
+    grid-template-columns: 1fr;
+  }
+  .home-container {
+    align-items: center;
+  }
+  footer {
+    width: 10vw;
+    .footer-sidebar {
+      width: 10vw;
+    }
+    .social-icons {
+      width: 10vw;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  footer {
+    width: 10vw;
+    .footer-sidebar {
+      width: 10vw;
+    }
+    .social-icons {
+      width: 10vw;
+    }
+  }
 }

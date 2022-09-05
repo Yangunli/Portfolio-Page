@@ -41,12 +41,31 @@ h1 {
   margin-left: 2px;
 }
 
-.h5 {
-  font-size: 1.5rem;
+.card-title {
+  text-align: center;
+  color: #7a5d07;
   text-transform: capitalize;
 }
 
 .card-body {
   background-color: #fff1d7 !important;
   color: #7a5d07;
+}
+
+.fa-solid.fa-virus-covid {
+  font-size: var(--bs-body-font-size);
+  color: #5b4505;
+}
+.pa {
+  color: #8a6a0a !important;
+  border-bottom: 2px solid burlywood;
+  background-color: #fff1d7;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.pa:hover {
+  background-color: #c2b7a2;
+  opacity: 0.8;
+  border: none;
+  border-radius: 20px 30px 50% 90%;
 }

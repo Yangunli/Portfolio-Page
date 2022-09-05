@@ -8,7 +8,7 @@ export const projectList = [
     react: "REACT",
     css: "MUI",
     paw: "PAW",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptate modi veritatis quas, dolore dolorum quaerat est corporis quisquam voluptates",
+    desc: "",
   },
   {
     id: 7,

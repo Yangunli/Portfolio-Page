@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import { Offcanvas, Button } from "react-bootstrap/";
+import { Offcanvas } from "react-bootstrap/";
+import { Link } from "react-router-dom";
+import bg from "../components/webdesign.svg";
+import project from "../components/html.svg";
 
 const Home = () => {
   const [show, setShow] = useState(false);
@@ -8,7 +11,7 @@ const Home = () => {
   const handleShow = () => setShow(true);
   return (
     <>
-      <div className="form">
+      <div className="home">
         <div className="menu">
           <img
             onClick={handleShow}
@@ -17,19 +20,44 @@ const Home = () => {
           />
         </div>
 
+        <div className="home-container">
+          <img src={bg} alt="" className="bg-img" />
+        </div>
+        <div className="home-desc">
+          <Link to="/application">
+            <div className="fa">
+              <i class="fa-solid fa-newspaper" />
+              <h5>About</h5>
+            </div>
+          </Link>
+          <Link to="/projectList">
+            <div className="fa">
+              <i class="fa-brands fa-react" />
+              <h5>Projects</h5>
+            </div>
+          </Link>
+          <Link to="/contact">
+            <div className="fa">
+              <i class="fa-solid fa-address-card" />
+              <h5>Contact</h5>
+            </div>
+          </Link>
+        </div>
         <Offcanvas show={show} onHide={handleClose} placement="end">
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+            <Offcanvas.Title></Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
+            <div className="home-link">
+              <Link to="/application"> About</Link>
+              <Link to="/projectList">Projects</Link>
+              <Link to="/contact">Contact</Link>
+            </div>
           </Offcanvas.Body>
         </Offcanvas>
       </div>
       <footer>
         <div className="footer-container">
-          {" "}
           <div className="social-icons">
             <i className="fa-brands fa-twitter" />
             <i className="fa-brands fa-github-alt" />

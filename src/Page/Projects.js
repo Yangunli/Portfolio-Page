@@ -40,17 +40,14 @@ const Projects = () => {
 
                     <div className="hover-container">
                       <Card.Text>{project.desc}</Card.Text>
-                      <div className="d-flex justify-content-xl-between">
-                        <Button variant="light" href={project.src} size="sm">
+                      <div className="d-flex justify-content-between">
+                        <a className="pa" href={project.src}>
                           See project
-                        </Button>
-                        <Button
-                          variant="secondary"
-                          size="sm"
-                          href={project.code}
-                        >
+                        </a>
+                        <i className="fa-solid fa-virus-covid" />
+                        <a className="pa" href={project.code}>
                           Souce Code
-                        </Button>
+                        </a>
                       </div>
                     </div>
                   </Card.Body>
