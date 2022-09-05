@@ -22,6 +22,9 @@ const Home = () => {
 
         <div className="home-container">
           <img src={bg} alt="" className="bg-img" />
+          <h1>
+            Hi <i className="fa-solid fa-hand-wave" /> I'm Yangunli.
+          </h1>
         </div>
         <div className="home-desc">
           <Link to="/application">
