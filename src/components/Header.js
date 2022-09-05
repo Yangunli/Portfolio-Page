@@ -13,7 +13,7 @@ const Header = () => {
         YANYANGIRL
       </div>
       <div className="link-container">
-        <Link to="/">About</Link>
+        <Link to="/application">About</Link>
         <Link to="/projectList">Projects</Link>
         <Link to="/contact">Contact</Link>
       </div>

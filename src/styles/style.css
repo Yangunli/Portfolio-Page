@@ -12,6 +12,80 @@
   height: 100vh;
 }
 
+.menu {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 5vw;
+}
+.menu img {
+  width: 50px;
+}
+
+.offcanvas.offcanvas-end.show {
+  border-radius: 15% 0px 0px 90%;
+  background-color: mintcream;
+  padding-left: 30px;
+  padding-top: 20px;
+  right: 5vw;
+}
+
+footer {
+  width: 5vw;
+  min-height: 100vh;
+  background-color: mintcream;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  -ms-writing-mode: lr-tb;
+      writing-mode: horizontal-tb;
+}
+
+.footer-container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  width: 5vw;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.social-icons .fa-brands {
+  font-size: 1.5rem;
+}
+
+.footer-sidebar {
+  width: 5vw;
+  height: 20vh;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  display: flex;
+  align-items: center;
+}
+.footer-sidebar small {
+  width: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+.fade.offcanvas-backdrop.show {
+  width: 95vw !important;
+  background-color: transparent;
+}
+
+.modal-open {
+  width: 95vw !important;
+}
+
 .form,
 .project-container {
   font-family: "Noto Sans TC", sans-serif;
@@ -67,6 +141,7 @@
   display: flex;
   flex-direction: column;
   font-family: "Playfair Display", serif;
+  padding-top: 15vh;
 }
 
 h1 {
@@ -138,11 +213,11 @@ h1 {
   opacity: 0.5;
   font-size: 0.8rem;
   cursor: pointer;
-  text-decoration: none;
   background-color: transparent;
 }
 
 .link-container a {
+  text-decoration: none;
   border-left: 3px solid black;
   color: inherit;
   transition: all 0.8s ease-in-out;

@@ -23,12 +23,11 @@
   opacity: 0.5;
   font-size: 0.8rem;
   cursor: pointer;
-
-  text-decoration: none;
   background-color: transparent;
 }
 
 .link-container a {
+  text-decoration: none;
   border-left: 3px solid black;
   color: inherit;
   transition: all 0.8s ease-in-out;
