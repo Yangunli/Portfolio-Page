@@ -9,8 +9,13 @@
 
 .App {
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   max-height: -webkit-fill-available;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 @import "./home";

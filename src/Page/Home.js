@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Offcanvas } from "react-bootstrap/";
 import { Link } from "react-router-dom";
-import bg from "../components/webdesign.svg";
-import project from "../components/html.svg";
-
+import bg from "../components/web.svg";
 const Home = () => {
   const [show, setShow] = useState(false);
 
@@ -22,27 +20,25 @@ const Home = () => {
 
         <div className="home-container">
           <img src={bg} alt="" className="bg-img" />
-          <h1>
-            Hi <i className="fa-solid fa-hand-wave" /> I'm Yangunli.
-          </h1>
+          <h1>Hi , I'm Yangunli.</h1>
         </div>
         <div className="home-desc">
           <Link to="/application">
             <div className="fa">
               <i class="fa-solid fa-newspaper" />
-              <h5>About</h5>
+              <h6>About</h6>
             </div>
           </Link>
           <Link to="/projectList">
             <div className="fa">
               <i class="fa-brands fa-react" />
-              <h5>Projects</h5>
+              <h6>Projects</h6>
             </div>
           </Link>
           <Link to="/contact">
             <div className="fa">
               <i class="fa-solid fa-address-card" />
-              <h5>Contact</h5>
+              <h6>Contact</h6>
             </div>
           </Link>
         </div>
@@ -62,9 +58,16 @@ const Home = () => {
       <footer>
         <div className="footer-container">
           <div className="social-icons">
-            <i className="fa-brands fa-twitter" />
-            <i className="fa-brands fa-github-alt" />
-            <i className="fa-brands fa-codepen" />
+            <a href="https://twitter.com/yanyangirl_tw">
+              <i className="fa-brands fa-twitter" />
+            </a>
+            <a href="https://github.com/Yangunli">
+              <i className="fa-brands fa-github-alt" />
+            </a>
+
+            <a href="https://codepen.io/wei-yi-lee/">
+              <i className="fa-brands fa-codepen" />
+            </a>
           </div>
           <div className="footer-sidebar">
             <small>© 2022 Yangunli</small>

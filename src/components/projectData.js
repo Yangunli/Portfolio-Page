@@ -57,8 +57,8 @@ export const projectList = [
   },
   {
     id: 3,
-    title: "Kaohsiung Travel",
-    img: "https://pic.pimg.tw/yangun410/1662291161-579906337-g_n.png",
+    title: "HAVE A NICE DAY",
+    img: "https://pic.pimg.tw/yangun410/1662446597-1288189432-g_n.png",
     src: "https://yangunli.github.io/haveaniceday/",
     code: "https://github.com/Yangunli/haveaniceday",
     info: "",

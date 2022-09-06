@@ -1,13 +1,12 @@
-import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Header = () => {
-  const navigate = useNavigate();
   return (
     <div className="header">
       <div className="logo">
         <Link to="/">Yanyangirl</Link>
       </div>
       <div className="link-container">
+        <Link to="/">Home</Link>
         <Link to="/application">About</Link>
         <Link to="/projectList">Projects</Link>
         <Link to="/contact">Contact</Link>

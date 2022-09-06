@@ -1,9 +1,10 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
+
 const Contact = () => {
   const navigate = useNavigate();
   return (
     <div className="form contact">
+      <div className="" style={{ width: "100%" }}></div>
       <div className="goback">
         <img
           onClick={() => navigate(-1)}

@@ -7,43 +7,60 @@ export const data = [
   },
   {
     id: 2,
-    title: "為了成為軟體工程師，曾做過什麼努力？若有具體專案作品請分享給我們。",
+    title:
+      "為了成為軟體工程師\uff0c曾做過什麼努力\uff1f若有具體專案作品請分享給我們。",
+    lists: [
+      { list: "參加六角的REACT讀書會\uff0c找出學習盲點" },
+      { list: "到圖書館借2020~2021出版的相關工具書與教學書" },
+    ],
+    src: "https://yangunli.github.io/Portfolio-Page/#/projectList",
     description:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eos. Ab atque quas nisi laboriosam nobis. Inventore odio quidem ab aliquid dolor, architecto provident optio nam ex ut laborum expedita?",
-    status: false,
   },
   {
     id: 3,
-    title: "如果參與這個計畫，會怎麼安排學習時間？",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eos. Ab atque quas nisi laboriosam nobis. Inventore odio quidem ab aliquid dolor, architecto provident optio nam ex ut laborum expedita?",
-    status: false,
+    title: "如果參與這個計畫\uff0c會怎麼安排學習時間\uff1f",
+    lists: [
+      {
+        list: "以番茄鐘計為區間\uff0c總計六至八小時裡\uff0c一半的時間精進Java Script",
+      },
+      { list: "週間分成三個主題\uff0c另一半主題不同去做不同的挑戰" },
+      { list: "主題一\uff0c" },
+      { list: "主題二\uff0c" },
+      { list: "主題三\uff0c" },
+    ],
+    description: "",
   },
   {
     id: 4,
-    title: "是否有想要加入的軟體公司？為什麼想加入該公司？",
-    description:
-      "後來再也說不上話大多是虛應一下故事，對啊也許吧那些與那些。他說，你終於聽懂我希望你成為的樣子。也是，有些人並不是需要朋友，而是需要陪襯的綠葉，你必須滿足他的虛榮，才是得體的存在。那種人並沒有什麼不好，不用當朋友就好。後來再也說不上話起為什麼好感發生多次卻無疾而終，來自於對方的政治冷感，有些人把世界看得很小，把自己看得很大，無法成為一個溫柔對待世界的人。他們並沒有好好看自己，那就不要看好了。反正也不是那麼重要，關於他者的想法並不需要都帶走，有些人只是例行情緒勒索，得到的是他的，得不到的就「好吧你就是這樣，不停歇地勒索。」後來再也說不上話也無法說話，都該去投胎，誰還會記得你曾經笑得燦爛的臉孔，鼻青臉腫，斷手斷腳的都不是鄉野傳奇。他說，唉究竟怎麼了，算了我也沒再追了 有些人說與我無關啊一開始他們也是這麼認為的。一開始有些人是這麼認為的呀…然後都沒有然後了。",
-    status: false,
+    title: "是否有想要加入的軟體公司\uff1f為什麼想加入該公司\uff1f",
+    description: "",
   },
   {
     id: 5,
-    title: "請描述一件你曾經碰到最困難的事情，如何克服？",
-    status: false,
+    title: "請描述一件你曾經碰到最困難的事情\uff1f如何克服\uff1f",
+
     description:
       "出國前夕曾祖母過世，因此同時要處理治喪事宜，保持出國旅程的品質，喪假的人力協調。",
   },
   {
     id: 6,
-    status: false,
-    title: "關於這份申請網頁，請分享一個你開發時的技術心得",
-    description: "",
+
+    title: "關於這份申請網頁\uff0c請分享一個你開發時的技術心得",
+    lists: [
+      {
+        list: "以番茄鐘計為區間\uff0c總計六至八小時裡\uff0c一半的時間精進Java Script",
+      },
+      { list: "週間分成三個主題\uff0c另一半主題不同去做不同的挑戰" },
+    ],
+    description:
+      "Scss和CSS Modules搞混\uff0cdeploy到 gh-pages後\uff0c發現破版了\u3002當下很困惑\uff0c打開style.css後\uff0c才發現Scss相對於以html tag設css\uff0c更適合設class\u3002也因為命名相同會覆蓋\uff0c要不時地確認是否重名\u3002",
   },
   {
     id: 7,
-    status: false,
-    title: "其他想要對我們說的事情？",
+
+    title: "其他想要對我們說的事情\uff1f",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eos  Ab atque quas nisi laboriosam nobis. Inventore odio quidem ab aliquid dolor, architecto provident optio nam ex ut laborum expedita?",
+      "原本去年的時候打算申請\uff0c結果脫離教學影片後\uff0c發現自己腦海一片空白\u3002才深刻地認知到\uff0c自己的學習方式是錯誤的\u3002年初開始到圖書館借閱了許多相關書籍\uff0c找出更適合自己的學習模式\u3002然而\uff0c出版程序繁瑣\uff0c也因此資訊可能無法因應最新版本\u3002便開始在各國外教學平台上找課程\uff0c",
   },
 ];

@@ -1,5 +1,4 @@
-import React from "react";
-import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
+import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 import { projectList } from "../components/projectData";
 import Header from "../components/Header";
 
