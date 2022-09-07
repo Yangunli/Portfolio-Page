@@ -6,6 +6,7 @@
   img {
     width: 100px;
   }
+  cursor: pointer;
 }
 
 .home {
@@ -20,6 +21,7 @@
   background-color: rgb(255, 255, 224);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  cursor: auto;
 }
 
 .home-container {
@@ -31,20 +33,11 @@
   // border: 2px solid rebeccapurple;
 }
 .bg-img {
-  width: 80%;
+  width: 50%;
 }
 
 .home-desc {
   display: none;
-}
-.offcanvas.offcanvas-end.show {
-  border-radius: 15% 0px 0px 90%;
-  // background-color: #bba58e;
-  width: 35%;
-  background-color: mintcream;
-  padding-left: 30px;
-  padding-top: 20px;
-  right: 5vw;
 }
 
 footer {
@@ -56,6 +49,7 @@ footer {
   right: 0;
   z-index: 0;
   writing-mode: horizontal-tb;
+  cursor: auto;
 }
 
 .footer-container {
@@ -77,6 +71,7 @@ footer {
   .fa-brands {
     font-size: 1.5rem;
   }
+  cursor: pointer;
 }
 
 .footer-sidebar {
@@ -91,6 +86,22 @@ footer {
     display: flex;
     align-items: center;
   }
+}
+
+.offcanvas.offcanvas-end.show {
+  border-radius: 15% 0px 0px 90%;
+  // background-color: #bba58e;
+  width: 35%;
+  background-color: mintcream;
+  padding-left: 30px;
+  padding-top: 20px;
+  right: 5vw;
+}
+
+.offcanvas.offcanvas-end.offcanvas-toggling {
+  border-radius: 20% 0px 0px 95%;
+  width: 25%;
+  background-color: mintcream;
 }
 
 .fade.offcanvas-backdrop.show {
@@ -137,8 +148,16 @@ h6 {
 .modal-open {
   width: 95vw !important ;
 }
+@media (max-width: 820px) {
+  .bg-img {
+    width: 60%;
+  }
+}
 
 @media (max-width: 820px) {
+  .bg-img {
+    width: 70%;
+  }
   .home {
     grid-template-columns: 2fr 1fr;
   }

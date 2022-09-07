@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { data } from "../components/data";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import cursor from "../assets/cursor.png";
 
 const Form = () => {
   return (
@@ -12,25 +14,26 @@ const Form = () => {
             <tbody>
               <tr className="items">
                 <th>{d.title}</th>
-                <td>{d.description}</td>
+                {d?.src && (
+                  <Link to="/projectList">
+                    連結到<code>Side Projects</code>
+                    <img src={cursor} alt="" />
+                  </Link>
+                )}
+                <td>{d?.description}</td>
                 {d?.lists && (
                   <ul>
-                    {d.lists.map((li) => (
+                    {d?.lists.map((li) => (
                       <li>{li.list}</li>
                     ))}
                   </ul>
-                )}
-
-                {d?.src && (
-                  <Link to="/projectList">
-                    有!!! <code>Side Projects</code>請按!!! 或是點選ABOUT
-                  </Link>
                 )}
               </tr>
             </tbody>
           </table>
         ))}
       </form>
+      <Footer />
     </>
   );
 };

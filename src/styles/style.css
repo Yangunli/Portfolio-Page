@@ -11,6 +11,7 @@
   width: 100vw;
   height: 100vh;
   max-height: -webkit-fill-available;
+  cursor: url(../assets/heart.png) 2 2, pointer;
 }
 
 a {
@@ -23,6 +24,7 @@ a {
   position: absolute;
   top: 0;
   right: 5vw;
+  cursor: pointer;
 }
 .menu img {
   width: 100px;
@@ -36,6 +38,7 @@ a {
   background-color: rgb(255, 255, 224);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  cursor: auto;
 }
 
 .home-container {
@@ -47,20 +50,11 @@ a {
 }
 
 .bg-img {
-  width: 80%;
+  width: 50%;
 }
 
 .home-desc {
   display: none;
-}
-
-.offcanvas.offcanvas-end.show {
-  border-radius: 15% 0px 0px 90%;
-  width: 35%;
-  background-color: mintcream;
-  padding-left: 30px;
-  padding-top: 20px;
-  right: 5vw;
 }
 
 footer {
@@ -73,6 +67,7 @@ footer {
   z-index: 0;
   -ms-writing-mode: lr-tb;
       writing-mode: horizontal-tb;
+  cursor: auto;
 }
 
 .footer-container {
@@ -91,6 +86,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 .social-icons .fa-brands {
   font-size: 1.5rem;
@@ -108,6 +104,21 @@ footer {
   width: 5vw;
   display: flex;
   align-items: center;
+}
+
+.offcanvas.offcanvas-end.show {
+  border-radius: 15% 0px 0px 90%;
+  width: 35%;
+  background-color: mintcream;
+  padding-left: 30px;
+  padding-top: 20px;
+  right: 5vw;
+}
+
+.offcanvas.offcanvas-end.offcanvas-toggling {
+  border-radius: 20% 0px 0px 95%;
+  width: 25%;
+  background-color: mintcream;
 }
 
 .fade.offcanvas-backdrop.show {
@@ -156,6 +167,14 @@ h6 {
 }
 
 @media (max-width: 820px) {
+  .bg-img {
+    width: 60%;
+  }
+}
+@media (max-width: 820px) {
+  .bg-img {
+    width: 70%;
+  }
   .home {
     grid-template-columns: 2fr 1fr;
   }
@@ -260,13 +279,23 @@ h6 {
 .project-container {
   font-family: "Noto Sans TC", sans-serif;
   background-color: wheat;
-  min-width: 100vw;
+  width: 100vw;
   min-height: 100vh;
   padding-top: 20vh;
 }
 
 ul {
   list-style-type: circle;
+  color: rgb(103, 70, 23);
+}
+
+li {
+  cursor: pointer;
+  border-bottom: 1px solid rgb(88, 88, 88);
+}
+li:hover {
+  background-color: rgb(195, 183, 165);
+  opacity: 0.8;
 }
 
 .form {
@@ -274,28 +303,27 @@ ul {
   justify-content: center;
   display: flex;
   flex-direction: column;
-}
-.form .form-img {
-  width: 50%;
-  display: block;
-  position: fixed;
-  top: 60%;
-  left: -5%;
-  z-index: 5;
+  background-image: url("../assets/like.png");
+  background-repeat: no-repeat;
+  background-position: 1vw 55vh;
+  background-size: 230px;
+  background-attachment: fixed;
 }
 
 .table {
-  width: 60% !important;
+  width: 50% !important;
   background: linear-gradient(to right bottom, rgba(208, 185, 109, 0.7), rgba(208, 185, 109, 0.2));
   display: flex;
   border-radius: 20px;
   padding: 1rem;
   margin: 1rem;
   z-index: 6;
+  cursor: auto;
 }
 
 .items {
   display: flex;
+  width: 100%;
   flex-direction: column;
   background-color: rgb(242, 206, 206);
   padding: 1rem;
@@ -305,25 +333,42 @@ ul {
 
 .table th {
   opacity: 1;
-  cursor: pointer;
   transition: 0.5s ease;
   padding-bottom: 5px;
 }
 
 .table td {
   opacity: 1;
-  cursor: pointer;
+  font-size: 0.9rem;
+  color: rgb(48, 47, 45);
+  cursor: auto;
 }
 
 .table th:hover {
   opacity: 0.5;
 }
 
-a {
-  text-decoration: none !important;
-  color: inherit !important;
+@media (max-width: 1000px) {
+  .form {
+    background-size: 200px;
+  }
 }
-
+@media (max-width: 860px) {
+  .form {
+    background-position: 2vw 50vh;
+    background-size: 150px;
+  }
+}
+@media (max-width: 680px) {
+  .table {
+    width: 80% !important;
+  }
+  .form {
+    background-image: url("../assets/flower.png");
+    background-repeat: repeat;
+    background-size: 200px;
+  }
+}
 .project-container {
   padding: 2vh 5vw;
   display: flex;
@@ -420,7 +465,7 @@ h1 {
   justify-content: space-around;
   opacity: 0.5;
   font-size: 0.8rem;
-  cursor: pointer;
+  padding-right: 1rem;
   background-color: transparent;
 }
 
@@ -439,7 +484,6 @@ h1 {
   margin-left: 2rem;
   font-size: 3rem;
   align-self: center;
-  cursor: pointer;
 }
 
 @media (max-width: 560px) {
@@ -463,10 +507,14 @@ h1 {
   }
 }
 .contact {
-  min-height: 100vh;
   width: 100vw;
-  background-image: url("../components/html.svg");
-  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 20vh;
+  background-color: wheat;
+  background-image: url("../assets/flower.png");
+  background-repeat: repeat;
+  background-size: 200px;
+  cursor: auto;
 }
 
 .goback {
@@ -474,6 +522,7 @@ h1 {
   position: fixed;
   left: 0;
   top: 45%;
+  cursor: pointer;
 }
 .goback img {
   width: 50px;
@@ -484,8 +533,58 @@ h1 {
   position: fixed;
   right: 0;
   top: 45%;
+  cursor: pointer;
 }
 .gohome img {
   width: 50px;
   transform: rotateY(180deg);
+}
+
+.ref-container {
+  font-family: "Aboreto", cursive;
+  width: 100vw;
+  color: saddlebrown;
+  background-color: rgb(203, 177, 128);
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 3vw;
+  opacity: 0.8;
+}
+
+.ref-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ref {
+  width: 100vw;
+  display: flex;
+  font-size: 0.6rem;
+  color: black;
+}
+.ref a {
+  margin-right: 10px;
+}
+
+.footer-icons {
+  padding-right: 20px;
+}
+
+.footer-icons a img {
+  width: 30px;
+}
+
+.ref-a {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 680px) {
+  .footer-icons {
+    padding-right: 10px;
+  }
+  .footer-icons a img {
+    width: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

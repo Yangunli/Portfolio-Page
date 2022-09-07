@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Offcanvas } from "react-bootstrap/";
 import { Link } from "react-router-dom";
-import bg from "../components/web.svg";
+import bg from "../assets//web.svg";
 const Home = () => {
   const [show, setShow] = useState(false);
 
@@ -20,7 +20,7 @@ const Home = () => {
 
         <div className="home-container">
           <img src={bg} alt="" className="bg-img" />
-          <h1>Hi , I'm Yangunli.</h1>
+          <h1>Hi , I'm Yangunli</h1>
         </div>
         <div className="home-desc">
           <Link to="/application">

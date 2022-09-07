@@ -1,8 +1,12 @@
 .contact {
-  min-height: 100vh;
   width: 100vw;
-  background-image: url("../components/html.svg");
-  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 20vh;
+  background-color: wheat;
+  background-image: url("../assets/flower.png");
+  background-repeat: repeat;
+  background-size: 200px;
+  cursor: auto;
 }
 
 .goback {
@@ -10,6 +14,7 @@
   position: fixed;
   left: 0;
   top: 45%;
+  cursor: pointer;
   img {
     width: 50px;
   }
@@ -20,6 +25,7 @@
   position: fixed;
   right: 0;
   top: 45%;
+  cursor: pointer;
   img {
     width: 50px;
     transform: rotateY(180deg);
