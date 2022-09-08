@@ -7,13 +7,13 @@
   padding-top: 20vh;
 }
 ul {
-  list-style-type: circle;
   // list-style-position: inside;
   color: rgb(103, 70, 23);
 }
 
 li {
   cursor: pointer;
+  font-size: 0.9rem;
   border-bottom: 1px solid rgb(88, 88, 88);
   &:hover {
     background-color: rgb(195, 183, 165);
@@ -28,7 +28,7 @@ li {
   flex-direction: column;
   background-image: url("../assets/like.png");
   background-repeat: no-repeat;
-  background-position: 1vw 55vh;
+  background-position: 10px 55vh;
   background-size: 230px;
   background-attachment: fixed;
 }
@@ -66,7 +66,7 @@ li {
 
 .table td {
   opacity: 1;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: rgb(48, 47, 45);
   cursor: auto;
 }
@@ -74,7 +74,10 @@ li {
   opacity: 0.5;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
+  .table {
+    width: 60% !important;
+  }
   .form {
     background-size: 200px;
   }
@@ -82,14 +85,18 @@ li {
 
 @media (max-width: 860px) {
   .form {
-    background-position: 2vw 50vh;
-    background-size: 150px;
+    background-position: 0px 50vh;
+    background-size: 120px;
+    background-repeat: repeat-x;
+  }
+  .table {
+    width: 70% !important;
   }
 }
 
 @media (max-width: 680px) {
   .table {
-    width: 80% !important;
+    width: 90% !important;
   }
   .form {
     background-image: url("../assets/flower.png");

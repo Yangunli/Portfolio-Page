@@ -52,8 +52,10 @@
   .link-container {
     a {
       border-left: none;
-      border-right: 2px solid brown;
     }
+  }
+  .link-container:not(:last-child) a {
+    border-right: 2px solid brown;
   }
 }
 
@@ -64,5 +66,20 @@
   }
   .link-container {
     font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    font-size: 1.1rem;
+  }
+  .link-container {
+    font-size: 0.5rem;
   }
 }

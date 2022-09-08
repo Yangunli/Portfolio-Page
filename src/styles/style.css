@@ -66,7 +66,7 @@ footer {
   right: 0;
   z-index: 0;
   -ms-writing-mode: lr-tb;
-      writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
   cursor: auto;
 }
 
@@ -96,7 +96,7 @@ footer {
   width: 5vw;
   height: 20vh;
   -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
   display: flex;
   align-items: center;
 }
@@ -213,8 +213,8 @@ h6 {
     width: 90%;
   }
   .fa-solid.fa-newspaper,
-.fa-brands.fa-react,
-.fa-solid.fa-address-card {
+  .fa-brands.fa-react,
+  .fa-solid.fa-address-card {
     font-size: 5rem;
     text-align: center;
   }
@@ -258,8 +258,8 @@ h6 {
     margin-left: 10px;
   }
   .fa-solid.fa-newspaper,
-.fa-brands.fa-react,
-.fa-solid.fa-address-card {
+  .fa-brands.fa-react,
+  .fa-solid.fa-address-card {
     font-size: 4rem;
     text-align: center;
   }
@@ -285,12 +285,12 @@ h6 {
 }
 
 ul {
-  list-style-type: circle;
   color: rgb(103, 70, 23);
 }
 
 li {
   cursor: pointer;
+  font-size: 0.9rem;
   border-bottom: 1px solid rgb(88, 88, 88);
 }
 li:hover {
@@ -305,14 +305,18 @@ li:hover {
   flex-direction: column;
   background-image: url("../assets/like.png");
   background-repeat: no-repeat;
-  background-position: 1vw 55vh;
+  background-position: 10px 55vh;
   background-size: 230px;
   background-attachment: fixed;
 }
 
 .table {
   width: 50% !important;
-  background: linear-gradient(to right bottom, rgba(208, 185, 109, 0.7), rgba(208, 185, 109, 0.2));
+  background: linear-gradient(
+    to right bottom,
+    rgba(208, 185, 109, 0.7),
+    rgba(208, 185, 109, 0.2)
+  );
   display: flex;
   border-radius: 20px;
   padding: 1rem;
@@ -339,7 +343,7 @@ li:hover {
 
 .table td {
   opacity: 1;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: rgb(48, 47, 45);
   cursor: auto;
 }
@@ -348,20 +352,27 @@ li:hover {
   opacity: 0.5;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
+  .table {
+    width: 60% !important;
+  }
   .form {
     background-size: 200px;
   }
 }
 @media (max-width: 860px) {
   .form {
-    background-position: 2vw 50vh;
-    background-size: 150px;
+    background-position: 0px 50vh;
+    background-size: 120px;
+    background-repeat: repeat-x;
+  }
+  .table {
+    width: 70% !important;
   }
 }
 @media (max-width: 680px) {
   .table {
-    width: 80% !important;
+    width: 90% !important;
   }
   .form {
     background-image: url("../assets/flower.png");
@@ -494,6 +505,8 @@ h1 {
   }
   .link-container a {
     border-left: none;
+  }
+  .link-container a:not(:last-child) {
     border-right: 2px solid brown;
   }
 }
@@ -504,6 +517,19 @@ h1 {
   }
   .link-container {
     font-size: 0.6rem;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .logo {
+    font-size: 1.1rem;
+  }
+  .link-container {
+    font-size: 0.5rem;
   }
 }
 .contact {
@@ -587,4 +613,4 @@ h1 {
   .footer-icons a img {
     width: 20px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
