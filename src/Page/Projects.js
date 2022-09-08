@@ -1,6 +1,7 @@
 import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 import { projectList } from "../components/projectData";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Projects = () => {
   return (
@@ -56,6 +57,7 @@ const Projects = () => {
           </Row>
         </Container>
       </div>
+      <Footer />
     </>
   );
 };
