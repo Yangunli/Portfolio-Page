@@ -50,7 +50,7 @@ export const data = [
       },
     ],
     src: "有噢",
-    description: "",
+    description: "下列是以時間先後排列的學習進程",
   },
   {
     id: 3,

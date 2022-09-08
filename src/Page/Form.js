@@ -14,13 +14,14 @@ const Form = () => {
             <tbody>
               <tr className="items">
                 <th>{d.title}</th>
+
+                <td>{d?.description}</td>
                 {d?.src && (
                   <Link to="/projectList">
                     連結到<code>Side Projects</code>
                     <img src={cursor} alt="" />
                   </Link>
                 )}
-                <td>{d?.description}</td>
                 {d?.lists && (
                   <ul>
                     {d?.lists.map((li) => (
