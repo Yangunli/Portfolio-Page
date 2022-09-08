@@ -25,19 +25,19 @@ const Home = () => {
         <div className="home-desc">
           <Link to="/application">
             <div className="fa">
-              <i class="fa-solid fa-newspaper" />
-              <h6>About</h6>
+              <i className="fa-solid fa-newspaper" />
+              <h6>Application</h6>
             </div>
           </Link>
           <Link to="/projectList">
             <div className="fa">
-              <i class="fa-brands fa-react" />
+              <i className="fa-brands fa-react" />
               <h6>Projects</h6>
             </div>
           </Link>
           <Link to="/contact">
             <div className="fa">
-              <i class="fa-solid fa-address-card" />
+              <i className="fa-solid fa-address-card" />
               <h6>Contact</h6>
             </div>
           </Link>
@@ -48,7 +48,7 @@ const Home = () => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <div className="home-link">
-              <Link to="/application"> About</Link>
+              <Link to="/application"> Application</Link>
               <Link to="/projectList">Projects</Link>
               <Link to="/contact">Contact</Link>
             </div>

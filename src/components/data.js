@@ -75,14 +75,13 @@ export const data = [
     title: "是否有想要加入的軟體公司\uff1f為什麼想加入該公司\uff1f",
 
     description:
-      "Funliday！2017年\uff0c第一次出國是用Funliday\u3002當時\uff0cFunliday讓我可以我規劃行程時\uff0c能夠直接分享給旅伴討論\u3002一開始他們的地圖服務仰賴google map\uff0c近年還建構了自家使用的地圖資料庫\u3002重點不只APP方面\uff0c他們網頁的RWD做的也太棒了吧\uff01開始做網頁後\uff0c都會情不自禁使用開發者工具檢視別人的網頁\u3002對於現階段的自己來說\uff0c軟體服務相關的網頁功能與美觀與否\uff0c2以及PTT面試分享討論\uff0c是目前最可以感受公司文化的來源\u3002",
+      "Funliday\uff012017年\uff0c第一次出國是用Funliday\u3002當時\uff0cFunliday讓我可以我規劃行程時\uff0c能夠直接分享給旅伴討論\u3002一開始他們的地圖服務仰賴google map\uff0c近年還建構了自家使用的地圖資料庫\u3002重點不只APP方面\uff0c他們網頁的RWD做的也太棒了吧\uff01開始做網頁後\uff0c都會情不自禁使用開發者工具檢視別人的網頁\u3002對於現階段的自己來說\uff0c軟體服務相關的網頁功能與美觀與否\uff0c以及PTT面試分享討論\uff0c是目前最可以感受公司文化的來源\u3002",
   },
   {
     id: 5,
     title: "請描述一件你曾經碰到最困難的事情\uff1f如何克服\uff1f",
 
-    description:
-      "去年失眠一個月半\uff0c是因為自己認我認同極為低落\u3002覺得自己擁有的能力\uff0c難以成為談資\uff0c在人力市場顯得弱勢\u3002因此邊讀多益英文\uff0c邊找硬技能學習\u3002當我開始學習HTML後\uff0c便解決當時睡眠障礙的問題\u3002",
+    description: "",
   },
   {
     id: 6,
@@ -101,6 +100,6 @@ export const data = [
 
     title: "其他想要對我們說的事情\uff1f",
     description:
-      "上個月做了一款推薦三座城市的展覽PWA後\uff0c體會到寫code的精神時光屋\u3002實作的過程css\uff0c養成看document的習慣\u3002從發想版面和功能\uff0c到實際做出來\u3002推薦給周圍的朋友及粉絲使用\uff0c不停地思考還有哪些可以優化\u3002做一個網頁真的太有趣了\u3002",
+      "上個月做了一款推薦展覽的PWA網站後\uff0c體會到寫code的精神時光屋\u3002實作的過程css\uff0c養成看document的習慣\u3002從發想版面和功能\uff0c到實際做出來\u3002推薦給周圍的朋友及粉絲使用\uff0c不停地思考還有哪些可以優化\u3002做一個網頁真的太有趣了\u3002",
   },
 ];

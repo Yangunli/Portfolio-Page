@@ -10,14 +10,10 @@
 }
 
 .home {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
   display: grid;
   grid-template-columns: 3fr 2fr;
   width: 100vw;
   min-height: 100vh;
-  // border: 2px solid rebeccapurple;
   background-color: rgb(255, 255, 224);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -90,12 +86,12 @@ footer {
 
 .offcanvas.offcanvas-end.show {
   border-radius: 15% 0px 0px 90%;
-  // background-color: #bba58e;
   width: 35%;
   background-color: mintcream;
   padding-left: 30px;
   padding-top: 20px;
   right: 5vw;
+  border-left: 1px solid mintcream;
 }
 
 .offcanvas.offcanvas-end.offcanvas-toggling {
@@ -193,6 +189,9 @@ h6 {
     align-items: flex-start;
     justify-content: space-around;
     padding: 0rem 2rem;
+    h6 {
+      font-size: 0.8rem;
+    }
   }
 
   .bg-img {
