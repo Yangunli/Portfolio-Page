@@ -3,15 +3,15 @@ export const data = [
     id: 1,
     title: "兩百字內的個人簡介",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eosAb atque quas nisi laboriosam nobis. Inventore odio quidem ab aliquiddolor, architecto provident optio nam ex ut laborum expedita ?",
+      "疫情封城期間\uff0c給予自己學習網頁開發的任務\u3002您好\uff0c我是李尉誼\uff0c一名持續在前端領域學習的全職轉職者\u3002本科為生物醫學\uff0c在學期間曾於業務為網頁優化的公司任職\uff0c在進行文案撰寫修改與編排\uff0c學會使用HTML常見標籤\uff0c同時也於一間新創公司無酬服務\uff0c扁平化的組織\uff0c讓我可以和網頁開發者討論調整的方向\u3002那時埋下的憧憬\uff0c如今成功發芽\u3002現在的我可以堅定地說\uff0c我會成為一名持續學習的前端工程師\u3002",
   },
   {
     id: 2,
     title:
-      "為了成為軟體工程師\uff0c曾做過什麼努力\uff1f若有具體專案作品請分享給我們。",
+      "為了成為軟體工程師\uff0c曾做過什麼努力\uff1f若有具體專案作品請分享給我們",
     lists: [
       {
-        list: "跟著彭彭和Wilson Ren學前端\u3002",
+        list: "在udemy跟著Wilson Ren學網頁開發\u3002",
       },
       {
         list: "freecodecamp的Front End Development Libraries教學\uff0c寫完發現這種教學不適合我\u3002",
@@ -36,21 +36,20 @@ export const data = [
         list: "寫w3schools複習HTML\u3001CSS\u3001JS\u3001React\u3001Git及Boostrap等的Quiz\uff0c依照錯誤或是印象不明確的主題複習\u3002",
       },
       {
-        list: "回頭看彭彭的教學\uff0c終於不卡了\uff0c發現自己要先理解原始名稱(英文)\uff0c再看中文教學比較順暢\u3002",
+        list: "發現自己要先理解原始名稱(英文)\uff0c再看中文教學比較順暢\u3002",
       },
       {
-        list: "參加六角的REACT讀書會\uff0c找出學習盲點\uff0c完成todoList\uff0c發現自己的JS需要繼續加強\u3002",
+        list: "參加六角的REACT讀書會\uff0c找出學習盲點\uff0c完成todoList\u3002藉由觀看其他學員的code\uff0c去斯堡不同的切入點\u3002",
       },
       {
         list: "遇到問題時讀document和MDN\uff0c如果還是不知道的話\uff0c搜索有沒有相似的問題與解法的分享\u3002",
       },
       {
-        list: "最近還會看W STORAGE收集的(日本)網頁\uff0c思考哪些以現階段的自己可以實現\u3002",
+        list: "最近還會看W STORAGE收集的(日本)網頁\uff0c思考哪些可以實作出來\u3002",
       },
     ],
     src: "有噢",
-    description:
-      "以時間先後順序\uff0c排列影響我學習的幾件事\uff0ctwitter經常可以找到很有用的資訊\u3002",
+    description: "",
   },
   {
     id: 3,
@@ -63,7 +62,7 @@ export const data = [
         list: "週間分成三個主題\uff0c剩下時間參考frontens roadmap\uff0c分三個主題\uff0c做不同的學習",
       },
       {
-        list: "主題一\uff0cInternate相關\uff0c以及如何增加Lighthouse各項的指數\uff0c如Performance\u3001Accessibility以及SEO)",
+        list: "主題一\uff0cInternate相關\uff0c以及如何增加Lighthouse各項的指數\u3002\uff0c例如\u3001PerformanceAccessibility以及SEO",
       },
       { list: "主題二\uff0cVite\uff0cNext.js\u3001Graphql" },
       { list: "主題三\uff0c主題一和主題二外的內容以CSS為優先" },
@@ -73,15 +72,24 @@ export const data = [
   {
     id: 4,
     title: "是否有想要加入的軟體公司\uff1f為什麼想加入該公司\uff1f",
-
+    lists: [
+      {
+        list: "Funliday",
+      },
+    ],
     description:
-      "Funliday\uff012017年\uff0c第一次出國是用Funliday\u3002當時\uff0cFunliday讓我可以我規劃行程時\uff0c能夠直接分享給旅伴討論\u3002一開始他們的地圖服務仰賴google map\uff0c近年還建構了自家使用的地圖資料庫\u3002重點不只APP方面\uff0c他們網頁的RWD做的也太棒了吧\uff01開始做網頁後\uff0c都會情不自禁使用開發者工具檢視別人的網頁\u3002對於現階段的自己來說\uff0c軟體服務相關的網頁功能與美觀與否\uff0c以及PTT面試分享討論\uff0c是目前最可以感受公司文化的來源\u3002",
+      "2第一次自由行是以Funliday規劃行程\uff0c編排能夠直接分享給旅伴\u3002初期的地圖服務仰賴google map\uff0c近年則是建構自家使用的地圖資料庫\u3002不只APP方面\uff0c網頁的RWD\uff0c用開發者工具調整寬距的表現良好\u3002也因此看到這個問題\uff0c第一個浮現的就是Funliday\uff0c看了PTT面試分享\uff0c更證明我的想法是合理的！",
   },
   {
     id: 5,
     title: "請描述一件你曾經碰到最困難的事情\uff1f如何克服\uff1f",
-
-    description: "",
+    lists: [
+      {
+        list: "在前公司發生過很多次\uff0c被漏掉教育訓練的事情\uff0c曾遇到一份難以理解消化的實驗方法",
+      },
+    ],
+    description:
+      "除了閱讀技術文件\uff0c拿著筆記及SOP問本科同事外\uff0c也必須閱讀相關的外部文件\u3002並且搜索關鍵字\uff0c深入了解操作手法和背後的原理\u3002才能在有悖於預設結果時\uff0c迅速地找出問題點\u3002當然\uff0c所有的熟能生巧\uff0c都是無數次的實作轉化而成\u3002",
   },
   {
     id: 6,
@@ -100,6 +108,6 @@ export const data = [
 
     title: "其他想要對我們說的事情\uff1f",
     description:
-      "上個月做了一款推薦展覽的PWA網站後\uff0c體會到寫code的精神時光屋\u3002實作的過程css\uff0c養成看document的習慣\u3002從發想版面和功能\uff0c到實際做出來\u3002推薦給周圍的朋友及粉絲使用\uff0c不停地思考還有哪些可以優化\u3002做一個網頁真的太有趣了\u3002",
+      "上個月做了一款推薦展覽的PWA網站後\uff0c體會到寫code的精神時光屋\u3002實作的過程css\uff0c養成看document的習慣\u3002從發想版面和功能\uff0c到實際做出來\u3002推薦給周圍的朋友及粉絲使用\uff0c不停地思考還有哪些可以優化\u3002網頁開發學習成為除了展覽以外\uff0c能夠廢寢忘食的重要存在\u3002非常希望可以加入團隊成為第三屆的學員\uff01",
   },
 ];
