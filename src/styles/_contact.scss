@@ -9,6 +9,13 @@
   cursor: auto;
 }
 
+.contact-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 5vw;
+}
+
 .goback {
   display: block;
   position: fixed;
@@ -23,7 +30,7 @@
 .gohome {
   display: block;
   position: fixed;
-  right: 0;
+  right: 5vw;
   top: 45%;
   cursor: pointer;
   img {

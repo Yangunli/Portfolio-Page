@@ -15,7 +15,7 @@ const Contact = () => {
           "
             to="/"
           >
-            <img src={notyet} alt="Not yet" />
+            <img style={{ maxWidth: "100%" }} src={notyet} alt="Not yet" />
           </Link>
         </div>
         <div className="goback">

@@ -61,8 +61,7 @@ footer {
   width: 5vw;
   min-height: 100vh;
   background-color: mintcream;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 0;
@@ -286,7 +285,7 @@ h6 {
   background-color: wheat;
   width: 105vw;
   min-height: 100vh;
-  padding: 20vh 0vw 30vh 0vw;
+  padding: 20vh 5vw 30vh 0vw;
 }
 
 ul {
@@ -478,7 +477,7 @@ h1 {
   justify-content: space-around;
   opacity: 0.5;
   font-size: 0.8rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
   background-color: transparent;
 }
 
@@ -525,6 +524,9 @@ h1 {
   .logo {
     font-size: 1.5rem;
   }
+  .link-container {
+    padding-right: 1.5rem;
+  }
 }
 @media (max-width: 350px) {
   .logo {
@@ -545,6 +547,13 @@ h1 {
   cursor: auto;
 }
 
+.contact-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 5vw;
+}
+
 .goback {
   display: block;
   position: fixed;
@@ -559,7 +568,7 @@ h1 {
 .gohome {
   display: block;
   position: fixed;
-  right: 0;
+  right: 5vw;
   top: 45%;
   cursor: pointer;
 }
