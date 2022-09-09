@@ -9,13 +9,13 @@ const Contact = () => {
     <>
       <Header />
       <div className="contact">
-        <div
-          className=""
-          style={{ width: "100%", display: "flex", justifyContent: "center" }}
-        >
-          <Link to="/">
-            {" "}
-            <img src={notyet} alt="" />
+        <div className="contact-img">
+          <Link
+            className="contact-img-link
+          "
+            to="/"
+          >
+            <img src={notyet} alt="Not yet" />
           </Link>
         </div>
         <div className="goback">

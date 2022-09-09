@@ -54,26 +54,26 @@ const Home = () => {
             </div>
           </Offcanvas.Body>
         </Offcanvas>
-      </div>
-      <footer>
-        <div className="footer-container">
-          <div className="social-icons">
-            <a href="https://twitter.com/yanyangirl_tw">
-              <i className="fa-brands fa-twitter" />
-            </a>
-            <a href="https://github.com/Yangunli">
-              <i className="fa-brands fa-github-alt" />
-            </a>
+        <footer>
+          <div className="footer-container">
+            <div className="social-icons">
+              <a href="https://twitter.com/yanyangirl_tw">
+                <i className="fa-brands fa-twitter" />
+              </a>
+              <a href="https://github.com/Yangunli">
+                <i className="fa-brands fa-github-alt" />
+              </a>
 
-            <a href="https://codepen.io/wei-yi-lee/">
-              <i className="fa-brands fa-codepen" />
-            </a>
+              <a href="https://codepen.io/wei-yi-lee/">
+                <i className="fa-brands fa-codepen" />
+              </a>
+            </div>
+            <div className="footer-sidebar">
+              <small>© 2022 Yangunli</small>
+            </div>
           </div>
-          <div className="footer-sidebar">
-            <small>© 2022 Yangunli</small>
-          </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </>
   );
 };
