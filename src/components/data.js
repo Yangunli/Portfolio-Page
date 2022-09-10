@@ -3,7 +3,7 @@ export const data = [
     id: 1,
     title: "兩百字內的個人簡介",
     description:
-      "疫情封城期間\uff0c給予自己學習網頁開發的任務\u3002您好\uff0c我是李尉誼\uff0c一名持續在前端領域學習的全職轉職者\u3002本科為生物醫學\uff0c在學期間曾於業務為網頁優化的公司任職\uff0c在進行文案撰寫修改與編排\uff0c學會使用HTML常見標籤\uff0c同時也於一間新創公司無酬服務\uff0c扁平化的組織\uff0c讓我可以和網頁開發者討論調整的方向\u3002那時埋下的憧憬\uff0c如今成功發芽\u3002現在的我可以堅定地說\uff0c我會成為一名持續學習的前端工程師\u3002",
+      "疫情封城期間\uff0c給予自己學習網頁開發的任務\u3002您好\uff0c我是李尉誼\uff0c一名持續在前端領域學習的全職轉職者\u3002本科為生物醫學\uff0c在學期間曾於業務為網頁優化的公司任職\uff0c在進行文案撰寫修改與編排\uff0c學會使用HTML常見標籤\uff0c同時也於一間新創公司無酬服務\uff0c扁平化的組織\uff0c讓我可以和網頁開發者討論調整的方向\u3002那時埋下的憧憬\uff0c如今成功發芽\u3002現在的我可以堅定地說\uff0c我會成為一名持續學習的前端工程師\u3002謝謝網頁開發\uff0c讓我找回自己\u3002",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const data = [
         list: "跟著《從Hooks 開始\uff0c讓你的網頁React 起來》\uff0c做出一款Real Time Weather App",
       },
       {
-        list: "刷udacity的JS的題目\uff0c發現自己的邏輯時常卡住\uff0c需要偷看答案\uff0c去回推思路\u3002",
+        list: "刷udacity的JS的題目\uff0c發現自己的邏輯時常卡住\uff0c於是找了彭彭老師和Wilson Ren的JS教學釐清思路",
       },
 
       {
@@ -39,7 +39,7 @@ export const data = [
         list: "發現自己要先理解原始名稱(英文)\uff0c再看中文教學比較順暢\u3002",
       },
       {
-        list: "參加六角的REACT讀書會\uff0c找出學習盲點\uff0c完成todoList\u3002藉由觀看其他學員的code\uff0c去斯堡不同的切入點\u3002",
+        list: "參加六角的REACT讀書會\uff0c找出學習盲點\uff0c完成todoList\u3002藉由觀看其他學員的code\uff0c去思考不同的切入點\u3002",
       },
       {
         list: "遇到問題時讀document和MDN\uff0c如果還是不知道的話\uff0c搜索有沒有相似的問題與解法的分享\u3002",
@@ -85,7 +85,7 @@ export const data = [
     title: "請描述一件你曾經碰到最困難的事情\uff1f如何克服\uff1f",
     lists: [
       {
-        list: "在前公司發生過很多次\uff0c被漏掉教育訓練的事情\uff0c曾遇到一份難以理解消化的實驗方法",
+        list: "在前公司很常需要學習新的實驗方法\uff0c曾遇到一份是關於分析化學(我不懂分析化學啊)的內容",
       },
     ],
     description:
