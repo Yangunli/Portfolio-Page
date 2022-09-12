@@ -569,7 +569,7 @@ h1 {
 .gohome {
   display: block;
   position: fixed;
-  right: 5vw;
+  right: 0vw;
   top: 45%;
   cursor: pointer;
 }
