@@ -70,7 +70,7 @@ footer {
   right: 0;
   z-index: 0;
   -ms-writing-mode: lr-tb;
-      writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
   cursor: auto;
 }
 
@@ -78,7 +78,7 @@ footer {
   height: 95vh;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 
@@ -100,7 +100,7 @@ footer {
   width: 5vw;
   height: 20vh;
   -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
   display: flex;
   align-items: center;
 }
@@ -221,8 +221,8 @@ h6 {
     width: 90%;
   }
   .fa-solid.fa-newspaper,
-.fa-brands.fa-react,
-.fa-solid.fa-address-card {
+  .fa-brands.fa-react,
+  .fa-solid.fa-address-card {
     font-size: 5rem;
     text-align: center;
   }
@@ -266,8 +266,8 @@ h6 {
     margin-left: 10px;
   }
   .fa-solid.fa-newspaper,
-.fa-brands.fa-react,
-.fa-solid.fa-address-card {
+  .fa-brands.fa-react,
+  .fa-solid.fa-address-card {
     font-size: 4rem;
     text-align: center;
   }
@@ -320,9 +320,13 @@ li:hover {
 
 .table {
   width: 50% !important;
-  background: linear-gradient(to right bottom, rgba(208, 185, 109, 0.7), rgba(208, 185, 109, 0.2));
+  background: linear-gradient(
+    to right bottom,
+    rgba(208, 185, 109, 0.7),
+    rgba(208, 185, 109, 0.2)
+  );
   -webkit-backdrop-filter: blur(2rem);
-          backdrop-filter: blur(2rem);
+  backdrop-filter: blur(2rem);
   display: flex;
   border-radius: 20px;
   padding: 1rem;
@@ -628,4 +632,4 @@ h1 {
   .footer-icons a img {
     width: 20px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
