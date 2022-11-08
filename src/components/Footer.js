@@ -21,8 +21,18 @@ const Footer = () => {
       </div>
 
       <hr />
-      <div className="ref">
+      <div
+        style={{
+          fontSize: "0.5rem",
+          display: "flex",
+          width: "100%",
+          gap: "1em",
+          color: "black",
+        }}
+      >
         <a href="https://storyset.com/work">Illustrations by Storyset</a>
+        <br />
+        <br />
         <a href="https://icons8.com/">Illustrations and Icons by Icons8</a>
       </div>
     </div>
